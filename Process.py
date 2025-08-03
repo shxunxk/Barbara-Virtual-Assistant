@@ -8,7 +8,7 @@ chatbot = pipeline('conversational', model='facebook/blenderbot-400M-distill')
 
 # Create a Conversation object with the user input
 conversation = Conversation("How are you?")
-o
+
 # Get the response
 response = chatbot([conversation])
 

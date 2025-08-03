@@ -1,5 +1,7 @@
 from Functions.Listen import Listen
-from Process import Process
+from Functions.Speak import Speak
+# from Process import Process
+from llm import llmModel
 
 # sentence = Listen()
-Process('Hello')
+Speak(llmModel('Hello'))

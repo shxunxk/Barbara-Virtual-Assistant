@@ -1,5 +1,4 @@
 from google.cloud import speech
-from google.cloud import texttospeech
 
 def Listen(audio_file):
     client = speech.SpeechClient()
